@@ -1,10 +1,11 @@
 import 'dart:convert';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:great_places/src/data/utils/constants.dart';
 import 'package:http/http.dart' as http;
 
 // ignore: constant_identifier_names
-const String GOOGLE_API_KEY = 'AIzaSyA4ravnp__WWCNCw6utOZmlDZx0r-M-itI';
+const String GOOGLE_API_KEY = Constants.GOOGLE_API_KEY;
 
 class LocationRepository {
   static String generateLocationPreviewUrl(
